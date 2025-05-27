@@ -12,16 +12,10 @@
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"/>
 <style>
 .fixed-width-container {
-    width: 1600px;
+    width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
     box-sizing: border-box;
-}
-
-.fixed-width-container {
-    max-height: 90vh;
-    overflow-x: hidden;
-    overflow-y: hidden;
 }
 </style></head>
 <body><div class="fixed-width-container">
@@ -299,6 +293,18 @@
 </div>
 </div>
 <br/>
+<div id="upgrade-result"></div>
+<div class="upgrade-table-wrapper" id="upgrade-table-wrapper"></div>
+</div>
+</div>
+</div>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/choices.js/public/assets/scripts/choices.min.js"></script>
+<!-- jsPDF library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<!-- jsPDF autoTable plugin -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.17/jspdf.plugin.autotable.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
 <!-- Footer Section -->
 <footer class="footer" id="footerSection">
 <div class="container">
@@ -319,19 +325,6 @@
       Delphix and other identified trademarks are the property of Delphix, Inc., Perforce Software, Inc., or an affiliate. Such trademarks are claimed and/or registered in the U.S. and other countries and regions. All third-party trademarks are the property of their respective holders. References to third-party trademarks do not imply endorsement or sponsorship of any products or services by the trademark holder. Contact Delphix, Inc., for further details.
     </p>
 </div>
-</footer>    
-<div id="upgrade-result"></div>
-<div class="upgrade-table-wrapper" id="upgrade-table-wrapper"></div>
-</div>
-</div>
-</div>
-<script src="script.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/choices.js/public/assets/scripts/choices.min.js"></script>
-<!-- jsPDF library -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-<!-- jsPDF autoTable plugin -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.17/jspdf.plugin.autotable.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
-
+</footer>
 </div></body>
 </html>
