@@ -5,6 +5,10 @@ const dataCache = {
   upgrade: null
 };
 
+document.addEventListener("DOMContentLoaded", function () {
+  console.log("Page loaded. Fixed-width layout active.");
+});
+
 async function preloadDataTab1() {
   try {
     const url = `data.json?t=${Date.now()}`;
