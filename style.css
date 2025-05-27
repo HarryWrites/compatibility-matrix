@@ -7,6 +7,14 @@
   --gray-dark: #333;
   --font-main: Arial, sans-serif;
 
+.fixed-width-container {
+  max-width: 1200px; /* Or any fixed width you prefer */
+  margin: 0 auto;
+  padding: 0 20px; /* Optional: Adds space on the sides */
+  box-sizing: border-box;
+}
+  
+
 /* Reset and General Styles */
 body {
   font-family: var(--font-main);
