@@ -8,18 +8,13 @@
   --font-main: Arial, sans-serif;
 }
 
-/* Fixed width layout */
-body {
-  margin: 0;
+.fixed-width-container {
+  max-width: 960px; /* Or any fixed width you prefer */
+  margin: 0 auto;
+  padding: 0 0px; /* Optional: Adds space on the sides */
   font-family: Arial, sans-serif;
   background: #f9f9f9;
   color: #333;
-}
-
-.fixed-width-container {
-  max-width: 1200px; /* Or any fixed width you prefer */
-  margin: 0 auto;
-  padding: 0 0px; /* Optional: Adds space on the sides */
 }
 
 main {
